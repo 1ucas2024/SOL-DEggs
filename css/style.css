@@ -951,13 +951,13 @@ a:focus {
   height: 100%;
 }
 .c1 {
-  background-image: url(/finexo-html/images/discord\ pc.jpg);
+  background-image: url(../images/discord\ pc.jpg);
 }
 .c2 {
-  background-image: url(/finexo-html/images/earn\ pc.png);
+  background-image: url(../images/earn\ pc.png);
 }
 .c3 {
-  background-image: url(/finexo-html/images/games\ pc.png);
+  background-image: url(../images/games\ pc.png);
 }
 
 .play-btn {
@@ -982,14 +982,14 @@ a:focus {
 
 @media only screen and (max-width: 600px) {
   .c1 {
-    background-image: url(/finexo-html/images/discord\ mb.png);
+    background-image: url('../images/discord\ mb.png');
   }
   .c2 {
-    background-image: url(/finexo-html/images/earn\ mb.png);
+    background-image: url('../images/earn\ mb.png');
     background-position-y: -200px;
   }
   .c3 {
-    background-image: url(/finexo-html/images/games\ mb.png);
+    background-image: url('../images/games\ mb.png');
     background-position-y: -200px;
   }
 
