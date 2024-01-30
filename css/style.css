@@ -980,19 +980,41 @@ a:focus {
   color: #7e7e7e !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 620px) and (max-width: 820px){
+.c1 ,.c2 , .c3 {
+  background-position-x: -50vw;
+}
+}
+
+
+@media only screen and (min-width: 520px) and (max-width: 620px) {
   .c1 {
     background-image: url('../images/discord\ mb.png');
+    background-position-y: -30vh;
   }
   .c2 {
     background-image: url('../images/earn\ mb.png');
-    background-position-y: -50px;
+    background-position-y: -30vh;
   }
   .c3 {
     background-image: url('../images/games\ mb.png');
-    background-position-y: -50px;
+    background-position-y: -30vh;
   }
 
+}
+@media only screen and (max-width: 520px) {
+  .c1 {
+    background-image: url('../images/discord\ mb.png');
+    
+  }
+  .c2 {
+    background-image: url('../images/earn\ mb.png');
+    
+  }
+  .c3 {
+    background-image: url('../images/games\ mb.png');
+    
+  }
 }
 
 /* coin flip */
